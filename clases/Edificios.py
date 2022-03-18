@@ -16,9 +16,9 @@ B = Edificio("Nueva York", "YooHoo!", "Sr. Salim", "Bueno")
 C = Edificio("Los Ángeles", "YooHoo!", "Sra. Xing", "Bueno")
 
 
-print(A.ubicacion, A.empresa, A.empleado, A.estado, sep="\n")
-
+print(A.ubicacion, A.empresa, A.empleado, A.estado, sep=", ", end=".")
+print("\n")
 A.catastrofe()
 
-print(A.ubicacion, A.empresa, A.empleado, A.estado)
+print(A.ubicacion, A.empresa, A.empleado, A.estado,sep=", ", end=".")
 
