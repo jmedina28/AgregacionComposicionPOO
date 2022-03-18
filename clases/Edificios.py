@@ -9,6 +9,7 @@ class Edificio:
     def catastrofe(self):
         if self.ubicacion == "Nueva York":
             self.estado = "Destruido"
+            self.empleado = "Fallecidos"
 
 
 A = Edificio("Nueva York", "YooHoo!", "Sr. Martin", "Bueno")
