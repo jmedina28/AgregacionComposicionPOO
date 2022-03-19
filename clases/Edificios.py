@@ -24,12 +24,7 @@ B = Edificio("Nueva York", "YooHoo!", "Sr. Salim", "Bueno")
 C = Edificio("Los Ángeles", "YooHoo!", "Sra. Xing", "Bueno")
 
 print("Ha elegido ejecutar el ejercicio 1, A continuación se le van a mostrar los datos de 3 edificaciones.")
-print("\nEl edificio A tiene las siguientes características:\n1. Ubicación: "+str(A.ubicacion) +
-      "\n2. Empresa: "+str(A.empresa)+"\n3. Empleado: "+str(A.empleado)+"\n4. Estado: "+str(A.estado))
-print("\nEl edificio B tiene las siguientes características:\n1. Ubicación: "+str(B.ubicacion) +
-      "\n2. Empresa: "+str(B.empresa)+"\n3. Empleado: "+str(B.empleado)+"\n4. Estado: "+str(B.estado))
-print("\nEl edificio C tiene las siguientes características:\n1. Ubicación: "+str(C.ubicacion) +
-      "\n2. Empresa: "+str(C.empresa)+"\n3. Empleado: "+str(C.empleado)+"\n4. Estado: "+str(C.estado))
+Edificio.caracteristicas()
 
 
 variable = int(input(
