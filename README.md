@@ -73,3 +73,7 @@ else:
         Edificio.caracteristicas()
         exit()
 Edificio.caracteristicas()
+```
+## Ejercicio 2: Inmortal<a name="id2"></a>
+
+## Ejercicio 3: Alternativa a la herencia múltiple<a name="id3"></a>
