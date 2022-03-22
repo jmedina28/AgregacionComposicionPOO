@@ -37,12 +37,3 @@ class Interfaz_Cristal():
       print('Protección en regla.')
     else:
       print('Protección obligatoria no presente.')
-Interfaz_Cristal().Paredes(['NORTE', 'SUR', 'ESTE', 'OESTE'])
-print()
-Interfaz_Cristal().Paredes(['NORTE', 'SUR', 'ESTE', 'OESTE'])
-print()
-Interfaz_Cristal().ParedCortina('NORTE', 4)
-print()
-Interfaz_Cristal().Superficie()
-print()
-Interfaz_Cristal().ComprobarProteccion('NORTE')
