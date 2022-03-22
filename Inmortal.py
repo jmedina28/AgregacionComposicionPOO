@@ -8,5 +8,5 @@ yang = Yang()
 yin.yang = yang 
 print(yang) 
 print(yang is yin.yang)
-del(yang) 
+Yang.__del__(yang) 
 print("?") 
