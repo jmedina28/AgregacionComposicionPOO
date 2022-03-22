@@ -1,13 +1,16 @@
 class Inmortal:  
-    class Yin: pass 
-    class Yang: 
-        def __del__(self): 
-            print("Yang destruido") 
-    
-    yin = Yin() 
-    yang = Yang() 
-    yin.yang = yang 
-    print(yang) 
-    print(yang is yin.yang)
-    Yang.__del__(yang) 
-    print("?") 
+    def ejecucion():  
+        class Yin: pass 
+        class Yang: 
+            def __del__(self): 
+                print("Yang destruido") 
+        
+        yin = Yin() 
+        yang = Yang() 
+        yin.yang = yang 
+        print(yang) 
+        print(yang is yin.yang)
+        Yang.__del__(yang) 
+        print("?") 
+
+Inmortal.ejecucion
