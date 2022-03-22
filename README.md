@@ -22,6 +22,7 @@ El código empleado para resolverlo es el siguiente:
 
 ```python
 
+
 class Edificio:
     def __init__(self, ubicacion, empresa, empleado, estado):
         self.ubicacion = ubicacion
@@ -59,6 +60,7 @@ if variable == 1:
         "\nSi desea provocar el Apocalipsis pulse 1, en caso contrario pulse cualquier otro valor y se finalizará con la ejecución del programa: "))
     if variable2 == 1:
         Edificio.catastrofe(C)
+        Edificio.caracteristicas()
     else:
         Edificio.caracteristicas()
         exit()
@@ -69,12 +71,36 @@ else:
         "\nSi desea provocar el Apocalipsis pulse 1, en caso contrario pulse cualquier otro valor y se finalizará con la ejecución del programa: "))
     if variable2 == 1:
         Edificio.catastrofe(A), Edificio.catastrofe(B)
+        Edificio.caracteristicas()
     else:
         Edificio.caracteristicas()
         exit()
-Edificio.caracteristicas()
 ```
 ## Ejercicio 2: Inmortal<a name="id2"></a>
+
+El código empleado para resolverlo es el siguiente:
+
+```python
+class Inmortal:  
+    def ejecucion():  
+        class Yin: pass
+        class Yang: 
+            def _del_(self): 
+                print("Yang destruido") 
+        
+        yin = Yin() 
+        yang = Yang() 
+        yin.yang = yang 
+        print(yang)
+        print(yang is yin.yang)
+        Yang._del_(yang) 
+        print("?") 
+# Habíamos llamado mal a la función _del_(self) y ahora ya sí que se ejecuta correctamente:
+# Salida:
+# True
+# Yang destruido
+# ?
+```
 
 ## Ejercicio 3: Alternativa a la herencia múltiple<a name="id3"></a>
 
@@ -119,14 +145,6 @@ class Interfaz_Cristal():
       print('Protección en regla.')
     else:
       print('Protección obligatoria no presente.')
-Interfaz_Cristal().Paredes(['NORTE', 'SUR', 'ESTE', 'OESTE'])
-print()
-Interfaz_Cristal().Paredes(['NORTE', 'SUR', 'ESTE', 'OESTE'])
-print()
-Interfaz_Cristal().ParedCortina('NORTE', 4)
-print()
-Interfaz_Cristal().Superficie()
-print()
-Interfaz_Cristal().ComprobarProteccion('NORTE')
+
 ```
 
