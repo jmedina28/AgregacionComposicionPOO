@@ -16,7 +16,7 @@ En este [repositorio](https://github.com/jmedina28/AgregacionComposicionPOO) que
 
 ## Ejercicio 1: El día siguiente<a name="id1"></a>
 
-En este ejercicio...
+En este ejercicio he creado un programa el cual de la clase Edificio derivan 3 edificios y defino la función catástrofe que destruye la ciudad que desees, también se le ofrece al usuario la posibilidad de provocar el apocalipsis, finalmente se muestran en pantalla los datos de cada edificio y el resultado de nuestras decisiones.
 
 El código empleado para resolverlo es el siguiente:
 
