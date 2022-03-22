@@ -36,6 +36,7 @@ if variable == 1:
         "\nSi desea provocar el Apocalipsis pulse 1, en caso contrario pulse cualquier otro valor y se finalizará con la ejecución del programa: "))
     if variable2 == 1:
         Edificio.catastrofe(C)
+        Edificio.caracteristicas()
     else:
         Edificio.caracteristicas()
         exit()
@@ -46,7 +47,7 @@ else:
         "\nSi desea provocar el Apocalipsis pulse 1, en caso contrario pulse cualquier otro valor y se finalizará con la ejecución del programa: "))
     if variable2 == 1:
         Edificio.catastrofe(A), Edificio.catastrofe(B)
+        Edificio.caracteristicas()
     else:
         Edificio.caracteristicas()
         exit()
-Edificio.caracteristicas()
